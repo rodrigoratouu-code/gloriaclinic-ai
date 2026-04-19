@@ -1,0 +1,96 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+yarn.lock
+package-lock.json
+pnpm-lock.yaml
+
+# Testing
+/coverage
+
+# Next.js
+/.next/
+/out/
+*.rsc
+
+# Production
+/build
+/dist
+
+# Misc
+.DS_Store
+*.pem
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Local env files
+.env*.local
+!.env.example
+
+# Vercel
+.vercel
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+.sublime-project
+.sublime-workspace
+
+# OS
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Claude Code
+.claude/skills/**/node_modules
+.claude/plugins
+*.mcp.json
+!example.mcp.json
+
+# Supabase
+supabase/.branches
+supabase/.temp
+
+# Claude Code / SaaS Factory - internos, no van al repo público
+.claude/
+CLAUDE.md
+GEMINI.md
+
+# Next.js / TypeScript scaffolding (la web es HTML estático, no necesita esto)
+src/
+next.config.ts
+tsconfig.json
+postcss.config.js
+tailwind.config.ts
+components.json
+package.json
+package-lock.json
+next-env.d.ts
+
+# Screenshots y tests temporales
+.playwright-mcp/
+demo-*.png
+index-*.png
+index-agent-*.png
+screenshot*.png
+page-*.png
+
+# Notas privadas (archivo o carpeta)
+notas
+notas/
+
+# Config local del agente (si el usuario hace una copia con la API key real)
+agente-dental/config.local.js
