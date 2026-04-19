@@ -105,7 +105,15 @@ ${fueraHorario ? "- Estamos FUERA de horario de atención. Menciona que la clín
   }
 
   /* ---------- 4. DOM del chat ---------- */
-  const ICON_CHAT = `<svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg>`;
+  const ICON_CHAT = `<svg viewBox="0 0 24 24" style="fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round">
+    <circle cx="12" cy="2.3" r="1" style="fill:currentColor;stroke:none"/>
+    <path d="M12 3.5v2"/>
+    <rect x="4.5" y="5.5" width="15" height="13" rx="2.8"/>
+    <circle cx="9" cy="11.5" r="1.1" style="fill:currentColor;stroke:none"/>
+    <circle cx="15" cy="11.5" r="1.1" style="fill:currentColor;stroke:none"/>
+    <path d="M9 15.3h6"/>
+    <path d="M4.5 10v3M19.5 10v3"/>
+  </svg>`;
   const ICON_CLOSE = `<svg viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>`;
   const ICON_SEND  = `<svg viewBox="0 0 24 24"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>`;
   const ICON_SUN   = `<svg viewBox="0 0 24 24"><path d="M6.76 4.84l-1.8-1.79-1.41 1.41 1.79 1.79 1.42-1.41zM4 10.5H1v2h3v-2zm9-9.95h-2V3.5h2V.55zm7.45 3.91l-1.41-1.41-1.79 1.79 1.41 1.41 1.79-1.79zm-3.21 13.7l1.79 1.8 1.41-1.41-1.8-1.79-1.4 1.4zM20 10.5v2h3v-2h-3zm-8-5c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm-1 16.95h2V19.5h-2v2.95zm-7.45-3.91l1.41 1.41 1.79-1.8-1.41-1.41-1.79 1.8z"/></svg>`;
