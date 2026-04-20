@@ -45,7 +45,6 @@
   border: none;
   cursor: pointer;
   padding: 0;
-  overflow: hidden;
   box-shadow: 0 10px 30px rgba(10, 77, 104, 0.45);
   display: flex;
   align-items: center;
